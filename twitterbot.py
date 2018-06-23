@@ -81,7 +81,7 @@ def MarkUrlAsPosted(url):
 # Search for particular keywords in tweets and retweet those tweets.
 def SearchAndRetweet():
 	exclude_words = [] 		# Do not include tweets with these words.
-	include_words = ["#hashtag"]	# Include tweets with these words.
+	include_words = ["#SDVX", "#IIDX", "#Bemani"]	# Include tweets with these words.
 
 	# Create Twitter search query with included words minus the excluded words.
 	filter = " OR ".join(include_words)
