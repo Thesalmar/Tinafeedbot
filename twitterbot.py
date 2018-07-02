@@ -23,10 +23,10 @@ class Settings:
 # Twitter authentication settings. Create a Twitter app at https://apps.twitter.com/ and
 # generate key, secret etc, and insert them below.
 class TwitterAuth:
-	ConsumerKey = "5VM8CnzQQ0feCJzgmTTaW08mS"
-	ConsumerSecret = "900kDxmjGSKHDpYdZx3LTNDBzGOUtcI7Bv0Z6EBSki50BUP4z1"
-	AccessToken = "1007368800684126209-RoN3MEvEjlb2GNgTjUhpIDVUJ6Zbe2"
-	AccessTokenSecret = "jdykk7060d1hoQD9Y8TN1QksyWukv04UeGDH1qk3FwtTa"
+	ConsumerKey = "XXX"
+	ConsumerSecret = "XXX"
+	AccessToken = "XXX"
+	AccessTokenSecret = "XXX"
 
 # Post tweet to account.
 def PostTweet(title, link):
